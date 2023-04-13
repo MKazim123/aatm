@@ -1,0 +1,682 @@
+@import url('https://fonts.vt-googleapis.vt-com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.vt-googleapis.vt-com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+/* the slides */
+.slick-slide {
+    margin: 0 15px;
+}
+
+/* the parent */
+.slick-list {
+    margin: 0 -15px;
+}
+.vt_section{
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+/* hero section */
+.vt-container .vt-content-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vt-container .vt-content-section .vt-main-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 98px;
+    color: #F084F4;
+    margin: 30px 0px;
+}
+.vt-container .vt-content-section .vt-subheading-1, .vt-container .vt-content-section .vt-subheading-2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.vt-09em;
+    color: #251E31;
+    margin: 0px;
+}
+.vt-container .vt-content-section .vt-subheading-2 span{
+    color: #F084F4;
+}
+.vt-container .vt-content-section .vt-hero-quote{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.vt-09em;
+    color: #251E31;
+    margin: 0px;
+}
+.vt-container .vt-content-section .vt-hero-quote span{
+    color: #F084F4;
+}
+.vt-container .vt-content-section .vt-stats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.vt-container .vt-content-section .vt-stats .vt-stat-num{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #F084F4;
+    margin: 0px;
+}
+.vt-container .vt-content-section .vt-stats .vt-stat-head{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #251E31;
+    margin: 0px;
+}
+.vt-container .vt-content-section .vt-stats .vt-stat-footer{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #251E31;
+    margin: 0px;
+}
+
+/* search section */
+#vt_search_section .nice-select{
+    display: none !important;
+}
+#vt_search_section #offer_category, #vt_search_section #offer_brand{
+    display: inline-block !important;
+    width: 100%;
+    border-radius: 14px;
+    border: 2px solid #F084F4;
+    background: #ECD2E2;
+}
+#vt_search_section .vt-search-bar{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 24px 20px 24px 60px;
+    background: #ECD2E2;
+    border: none;
+    border-radius: 14px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.vt-09em;
+    color: #251E31;
+}
+#vt_search_section .vt-search-bar::placeholder{
+    color: #fff;
+}
+#vt_search_section .vt-content{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+}
+#vt_search_section .vt-content::before{
+    content: "";
+    background-image: url("search3.vt-png");
+    background-repeat: no-repeat;
+    background-size: 26px 26px;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 20px;
+}
+#vt_search_section .vt-search-btn{
+    background: #F084F4;
+    border-radius: 14px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.vt-09em;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 34px;
+    /* position: absolute;
+    right: 15px;
+    top: 50%; */
+    /* -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
+}
+
+.vt-section-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.vt-09em;
+    color: #251E31;
+}
+.vt-section-heading span{
+    color: #F084F4;
+}
+
+/* trending coupons */
+.vt-coupons-cards .vt-card{
+    width: 100%;
+    max-width: 84%;
+    background-color: #F8CAAB;
+    border-radius: 30px;
+    padding: 20px;
+}
+.vt-coupons-cards .vt-card .vt-brand-logo img{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+}
+.vt-coupons-cards .vt-card .vt-card-head{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+    padding-top: 15px;
+}
+.vt-coupons-cards .vt-card .vt-card-head .vt-sec-left{
+    width: 100%;
+    max-width: 66px;
+}
+.vt-coupons-cards .vt-card .vt-card-head .vt-sec-top .vt-card-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #251E31;
+    margin: 0px 0px 10px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+.vt-coupons-cards .vt-card .vt-card-head .vt-sec-bottom p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #251E31;
+    background-color: #DAAC8D;
+    margin: 0;
+    display: inline-block;
+    padding: 1px 10px;
+    border-radius: 30px;
+}
+.vt-coupons-cards .vt-card .vt-card-body{
+    padding: 25px 60px 30px 0px;
+    border-bottom: 3px dashed #fff;
+    position: relative;
+}
+.vt-coupons-cards .vt-card .vt-card-body p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #251E31;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* number of lines to show */
+            line-clamp: 5; 
+    -webkit-box-orient: vertical;
+}
+.vt-coupons-cards .vt-card .vt-card-footer .vt-coupon-btn{
+    background: #f372348a;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 10px 10px 10px 10px;
+    /* border: 1px solid #F37234; */
+}
+.vt-coupons-cards .vt-card .vt-card-footer{
+    padding: 30px 0px 15px 0px;
+}
+.vt-coupons-cards .vt-card .vt-card-footer a{
+    text-decoration: none !important;
+    background: #F37234;
+    /* border-radius: 10px 10px 10px 10px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 0px;
+    position: relative;
+    transition: all 0.2s ease;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-transform: capitalize;
+}
+.vt-coupons-cards .vt-card .vt-card-footer a:before {
+    content: '##';
+    position: absolute;
+    right: 0;
+    visibility: hidden;
+    color: #fff;
+    font-weight: 500;
+    top: 0;
+    bottom: 0;
+
+}
+
+.vt-coupons-cards .vt-card .vt-card-footer a:after {
+    content: '';
+    /* background-image: url('http://localhost/mom/wp-content/uploads/2022/11/Vector-3.png'); */
+    width: 18px !important;
+    height: 52px !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: absolute !important;
+    right: 0px !important;
+    top: 0px !important;
+
+}
+
+.vt-coupons-cards .vt-card .vt-card-footer a:hover {
+    width: 86%;
+    transition: all 0.5s ease;
+    padding-right: 0;
+}
+
+.vt-coupons-cards .vt-card .vt-card-footer a:hover::before {
+    /* transition: all 0.5s ease; */
+    visibility: visible;
+    width: 20px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: -27px;
+}
+.vt-coupons-cards .vt-card .vt-card-footer a.external_link.lasso-brag{
+    display: none !important;
+}
+.vt-coupons-cards .vt-card .vt-card-footer .lasso-container {
+    box-sizing: border-box !important;
+    position: relative;
+    width: 100%;
+    padding: 0px !important;
+    margin: 0px!important;
+    overflow: initial !important;
+}
+.vt-circle-left, .vt-circle-right{
+    width: 28px;
+    height: 28px;
+    background: #FFFFFF;
+    display: inline-block;
+    border-radius: 50px;
+    position: absolute;
+}
+.vt-circle-left{
+    left: -33px;
+    bottom: -14px;
+}
+.vt-circle-right{
+    right: -33px;
+    bottom: -14px;
+}
+img.a-left.control-c.prev.slick-prev.slick-arrow {
+    position: absolute;
+    right: 0;
+    top: -42px;
+    cursor: pointer;
+    left: unset !important;
+    transform: rotateZ(180deg);
+}
+
+img.a-right.control-c.next.slick-next.slick-arrow {
+    position: absolute;
+    right: 32px;
+    top: -32px;
+    cursor: pointer;
+}
+
+/* top brands */
+.vt_top_brand_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#vt_top_brands .nice-select{
+    display: none !important;
+}
+#brand_order_by{
+    display: inline-block !important;
+    background: #ECD2E2;
+    border-radius: 10px;
+    color: #251E31;
+    padding: 5px !important;
+    border: none !important;
+}
+.vt-brands-cards .vt-card{
+    width: 100%;
+    max-width: 24%;
+    background-color: #FFFFFF;
+    border: 2px solid #ECD2E2;
+    border-radius: 24px;
+}
+.vt-brands-cards .vt-card .vt-card-head{
+    padding: 52px 0;
+    background: #ECD2E2;
+    border-radius: 21px 21px 0px 0px;
+}
+.vt-brands-cards .vt-card .vt-card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    position: relative;
+}
+.vt-brands-cards .vt-card .vt-card-body .vt-brand-meta{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.vt-brands-cards .vt-card .vt-card-body .vt-card-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21px;
+    line-height: 30px;
+    color: #251E31;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+}
+.vt-brands-cards .vt-card .vt-card-body .vt-card-desp p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #251E31;
+    margin: 0;
+    text-align: center;
+    padding: 0px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+.vt-brands-cards .vt-card .vt-brand-logo{
+    position: absolute;
+    top: -65px;
+}
+.vt-brands-cards .vt-card .vt-brand-logo img{
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+}
+.vt-brands-cards .vt-card .vt-card-footer a{
+    text-decoration: none;
+    background: #F5A7AD;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 0px;
+}
+.vt-brands-cards .vt-card .vt-card-footer{
+    padding: 0px 20px 30px 20px;
+}
+.pagination-wrap {
+    margin: 61px 0;
+    display: flex;
+    gap: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+.pagination-wrap span.page-numbers.current {
+    width: 51px;
+    height: 51px;
+    background: #F084F4;
+    border: 1px solid #F084F4;
+    border-radius: 100%;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    padding: 13px;
+    text-align: center;
+    margin: 0 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.pagination-wrap a.page-numbers {
+    width: 51px;
+    height: 51px;
+    background: rgba(255, 20, 147, 0.3);
+    border: 1px solid #FE3378;
+    border-radius: 100%;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    padding: 13px;
+    text-align: center;
+    margin: 0 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+/* Adv search */
+.vt-container.search-section-new{
+    position: relative;
+}
+.adv_search_container{
+    background-color: #FFF;
+    /* border-radius: 14px; */
+    border: 1px solid #F084F4;
+    padding: 0;
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    max-width: 800px;
+    width: 100%;
+}
+.adv_search_container h4{
+    font-family: 'Poppins';
+    font-size: 22px;
+    margin-bottom: 0;
+    padding: 20px 20px 5px;
+}
+.adv_search_container ul.search_items {
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 10px; */
+}
+.adv_search_container .offers_search_container, .adv_search_container .brands_search_container{
+    display: none;
+    margin-bottom: 20px;
+}
+.adv_search_container .offers_search_container{
+    margin-bottom: 20px;
+}
+.adv_search_container ul.search_items li{
+    padding: 10px 20px;
+}
+.adv_search_container ul.search_items li:hover{
+    background-color: #dfdfdf;
+    /* border-radius: 25px; */
+}
+.adv_search_container ul.search_items li .search_item_row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+    text-decoration: none;
+    color: #646464;
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 400;
+}
+.adv_search_container ul.search_items li img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.adv_search_container .lasso-button-container{
+    box-sizing: border-box !important;
+    padding: 0px !important;
+    margin: 0px!important;
+    overflow: initial !important;
+    width: unset !important;
+    position: static !important;
+}
+.adv_search_container .lasso-button-container .lasso-button-1{
+    margin: 0 !important;
+}
+.adv_search_container .lasso-button-container .lasso-brag{
+    display: none !important;
+}
+.adv_search_container .offers_search_container .search_item{
+    position: relative;
+}
+.adv_search_container .offers_search_container .search_items .search_item_row a.lasso-button-1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    width: 100%;
+    opacity: 0 !important;
+    font-weight: 400;
+}
+/* Adv search ends */
+
+
+
+
+
+/* Media Queries */
+
+@media(max-width: 1300px){
+    .vt_section{
+       padding: 0px 10px;
+    }
+}
+@media(max-width:1024px) {
+    .vt-sec-left {
+        min-width: 33%;
+    }
+}
+
+
+@media(max-width:850px) {
+    .vt-brands-cards .vt-card {
+        max-width: 32%;
+    }
+
+    section#vt_hero_section .vt-content-section {
+        flex-wrap: wrap;
+    }
+
+    .vt-sec-left {
+        min-width: 90%;
+    }
+
+    .vt-coupons-cards .vt-card .vt-card-head {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 670px) {
+    .vt-brands-cards .vt-card {
+        max-width: 49%;
+    }
+}
+
+@media(max-width:650px) {
+    .vt-brands-cards .vt-card {
+        max-width: 48%;
+    }
+    .vt-container .vt-content-section .vt-main-heading{
+        font-size: 45px;
+        margin: 20px 0px;
+    }
+    .vt-container .vt-content-section .vt-subheading-1, .vt-container .vt-content-section .vt-subheading-2{
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .vt-container .vt-content-section .vt-stats .vt-stat-num{
+        font-size: 20px;
+    }
+    .vt-container .vt-content-section .vt-stats .vt-stat-head{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .vt-container .vt-content-section .vt-stats .vt-stat-footer{
+        font-size: 12px;
+    }
+    #vt_search_section .vt-content{
+        flex-wrap: wrap;
+        row-gap: 10px;
+        justify-content: center;
+    }
+}
+
+@media(max-width:500px) {
+    .vt-brands-cards .vt-card {
+        max-width: 100%;
+    }
+
+    #search_section .vt-search-bar {
+        padding: 24px 20px 24px 16px;
+        margin-bottom: 16px;
+    }
+
+    #search_section .vt-search-btn {
+        position: unset;
+    }
+}

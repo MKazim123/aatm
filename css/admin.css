@@ -1,0 +1,56 @@
+.acf-postbox{
+	border: none;
+}
+.toplevel_page_theme-settings .inside.acf-fields,
+.acf-fields .acf-field.acf-field-flexible-content{
+    padding-left: 0;
+    padding-right: 0;
+    background: #f1f1f1;
+    border: none;
+}
+.acf-fields .acf-field.acf-field-flexible-content {}
+.taxonomy-category table.form-table .layout,
+.taxonomy-category table.form-table,
+.toplevel_page_theme-settings .inside.acf-fields > div,
+#post-body-content #acf_after_title-sortables .postbox.acf-postbox,
+.acf-fields .acf-flexible-content .layout{
+	margin-top: 25px;
+    border: 1px solid #e6e6fa;
+    box-shadow: 0 0 5px 2px rgba(240,132,244,.2);
+    background: #fff;
+}
+.acf-fields .acf-field.acf-field-message {
+    margin-top: -15px;
+    padding-top: 0;
+	border-top: none;
+}
+
+.taxonomy-category form#edittag {
+    max-width: 100%;
+}
+.taxonomy-category form#edittag h2 {
+    background: #fff;
+    margin: 25px 0 -25px;
+    padding: 15px;
+}
+.taxonomy-category table.form-table {
+    padding: 15px;
+}
+.taxonomy-category form#edittag .form-table .acf-label,
+form#edittag .form-table th {
+    padding-left: 15px;
+}
+body:not(.taxonomy-category) .show-cat {
+    display: none;
+}
+#reset-posts-container {
+    display: flex;
+}
+#reset-posts-container section {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+#reset-posts-container section + section {
+    padding-left: 12px;
+    border-left: 1px solid #ccd0d4;
+}

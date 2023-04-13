@@ -1,0 +1,454 @@
+/* listing page */
+
+.vt-section .vt-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 30px;
+}
+
+/* section left */
+
+.vt-section .vt-brand-content .vt-sec-left{
+    width: 100%;
+    max-width: 18%;
+}
+/* similar brands */
+.vt-similar-offer-section .vt-similar-heading h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.vt-09em;
+    color: #251E31;
+}
+.vt-similar-offer-section .vt-similar-heading h3 span{
+    font-weight: 700;
+    color: #F084F4;
+}
+
+.vt-similar-offer-section .vt-similar-cards{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.vt-similar-cards .vt-card{
+    width: 100%;
+    max-width: 100%;
+    background-color: #FFFFFF;
+    border: 2px solid #ECD2E2;
+    border-radius: 24px;
+}
+.vt-similar-cards .vt-card .vt-card-head{
+    padding: 52px 0;
+    background: #ECD2E2;
+    border-radius: 21px 21px 0px 0px;
+}
+.vt-similar-cards .vt-card .vt-card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    position: relative;
+}
+.vt-similar-cards .vt-card .vt-card-body .vt-brand-meta{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.vt-similar-cards .vt-card .vt-card-body .vt-card-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21px;
+    line-height: 30px;
+    color: #251E31;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+}
+.vt-similar-cards .vt-card .vt-card-body .vt-card-desp p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #251E31;
+    margin: 0;
+    text-align: center;
+    padding: 0px 10px;
+}
+.vt-similar-cards .vt-card .vt-brand-logo{
+    position: absolute;
+    top: -65px;
+}
+.vt-similar-cards .vt-card .vt-brand-logo img{
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+}
+.vt-similar-cards .vt-card .vt-card-footer a{
+    text-decoration: none;
+    background: #F5A7AD;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 0px;
+}
+.vt-similar-cards .vt-card .vt-card-footer{
+    padding: 0px 20px 30px 20px;
+}
+/* current brand */
+.vt-current-cards .vt-card{
+    width: 100%;
+    max-width: 100%;
+    background-color: #FFFFFF;
+    border: 2px solid #ECD2E2;
+    border-radius: 24px;
+}
+.vt-current-cards .vt-card .vt-card-head{
+    padding: 52px 0;
+    background: #ECD2E2;
+    border-radius: 21px 21px 0px 0px;
+}
+.vt-current-cards .vt-card .vt-card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    position: relative;
+}
+.vt-current-cards .vt-card .vt-card-body .vt-brand-meta{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.vt-current-cards .vt-card .vt-card-body .vt-card-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21px;
+    line-height: 30px;
+    color: #251E31;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+}
+.vt-current-cards .vt-card .vt-card-body .vt-card-desp p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #251E31;
+    margin: 0;
+    text-align: center;
+    padding: 0px 10px;
+}
+.vt-current-cards .vt-card .vt-brand-logo{
+    position: absolute;
+    top: -65px;
+}
+.vt-current-cards .vt-card .vt-brand-logo img{
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+}
+.vt-current-cards .vt-card .vt-card-footer{
+    padding: 20px 20px 20px 20px;
+    border-top: 2px solid #ECD2E2;
+    border-radius: 25px;
+}
+.vt-current-cards .vt-card .vt-card-footer .vt-info-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 12px;
+}
+.vt-current-cards .vt-card .vt-card-footer .vt-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 15px;
+}
+.vt-current-cards .vt-card .vt-card-footer .vt-info .vt-info-logo{
+    width: 27px;
+    height: 24px;
+}
+.vt-current-cards .vt-card .vt-card-footer .vt-info .vt-info-meta a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: #251E31;
+}
+
+/* setion right */
+.vt-section .vt-sec-right .vt-breadcrumb-sec .vt-breadcrumb{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.vt-09em;
+    color: #251E31;
+}
+.vt-section .vt-sec-right .vt-listing-heading h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.vt-09em;
+    color: #251E31;
+    margin: 15px 0;
+}
+.vt-section .vt-sec-right .vt-listing-heading h1 span{
+    color: #F084F4;
+    font-weight: 700;
+}
+.vt-section .vt-sec-right .vt-offer-listing-cards .vt-card{
+    border: 1px solid #F5A7AD;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-promo-sec{
+    width: 100%;
+    max-width: 10%;
+}
+.vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-promo{
+    /* border: 1px solid #F5A7AD; */
+    margin: 0 auto;
+    border-radius: 50px;
+    text-align: center;
+    width: 100%;
+    max-width: 92px;
+    box-sizing: border-box;
+}
+.vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-promo img{
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+}
+.vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-promo .vt-percent-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    margin: 20px 0px;
+    color: #251E31;
+}
+.vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-promo span{
+    background: #F5A7AD;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.vt-09em;
+    color: #FFFFFF;
+    padding: 1px 24px;
+    max-width: 92px;
+    box-sizing: border-box;
+}
+.vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-card-meta{
+    /* width: 100%;
+    max-width: 40%; */
+}
+.vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-card-meta .vt-meta-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21px;
+    line-height: 32px;
+    color: #251E31;
+    margin: 15px 0;
+}
+.vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-card-meta .vt-meta-desp{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px; 
+    color: #251E31; 
+    opacity: 0.8;
+}
+.vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-card-btn{
+    width: 100%;
+    max-width: 30%;
+    background: #d98b91b0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 10px 10px 10px 10px;
+}
+.vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-card-btn .lasso-container{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-card-btn a{
+    /* text-decoration: none !important;
+    background: #F5A7AD;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 0px; */
+    width: 100%;
+    background: #F5A7AD;
+    display: block;
+    text-align: center;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Poppins';
+    transition: all 0.2s ease;
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid #F5A7AD;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-transform: capitalize;
+}
+.vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-card-btn a::before{
+    content: '##';
+    position: absolute;
+    right: 0;
+    visibility: hidden;
+    color: #000;
+    font-weight: 500;
+}
+.vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-card-btn a::after{
+    content: '';
+    /* background-image: url('http://localhost/mom/wp-content/uploads/2022/11/Group-238201-1.png'); */
+    width: 18px !important;
+    height: 52px !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: absolute !important;
+    right: 0px !important;
+    top: 0px !important;
+}
+.vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-card-btn a:hover {
+    width: 86%;
+    transition: all 0.5s ease;
+    padding-right: 0;
+}
+
+.vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-card-btn a:hover::before {
+    /* transition: all 0.5s ease; */
+    visibility: visible;
+    width: 20px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: -27px;
+}
+.vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-card-btn a.external_link.lasso-brag{
+    display: none !important;
+}
+
+/* Media Queries */
+
+@media(max-width: 1300px){
+    .vt-offer-listing-cards,#brand_listing{
+       padding: 0px 10px;
+    }
+    .vt-section .vt-sec-right .vt-listing-heading h1{
+        padding-left: 10px;
+    }
+}
+@media(max-width: 1100px){
+    .vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-promo-sec{
+        max-width: 18%;
+    }
+}
+@media(max-width:850px) {
+    #brand_listing .vt-sec-left{
+        min-width: 33%;
+    }
+}
+@media(max-width:992px) {
+    .vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-card-meta .vt-meta-heading {
+        font-size: 19px;
+    }
+}
+
+
+@media(max-width:767px) {
+    .vt-section .vt-content {
+        flex-wrap: wrap;
+    }
+    #brand_listing .vt-sec-left{
+        min-width: 100%;
+    }
+
+    div#Fordesktop {
+        display: none;
+    }
+
+    #Formob,
+    div#mobbreadcrumbs {
+        display: block;
+    }
+
+    .vt-sec-right .vt-breadcrumb-sec {
+        display: none;
+    }
+    
+}
+
+@media(max-width:600px) {
+    .vt-section .vt-sec-right .vt-offer-listing-cards .vt-card {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 23px;
+    }
+
+    .vt-section .vt-sec-right .vt-offer-listing-cards .vt-card-meta {
+        text-align: center;
+    }
+
+    .vt-card-btnsz {
+        max-width: 50%;
+    }
+    .vt-section .vt-sec-right .vt-listing-heading h1{
+        font-size: 26px;
+    }
+    .vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-promo-sec{
+        max-width: 30%;
+    }
+    .vt-section .vt-sec-right .vt-offer-listing-cards .vt-card .vt-card-btn{
+        max-width: 80%;
+        margin-top: 20px;
+    }
+}
